@@ -1,5 +1,3 @@
-
-
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.*;
@@ -30,11 +28,6 @@ public class OptionMenu extends Account {
                 x=2;
             }
 
-         /*for(Map.Entry<Integer,Integer> it : data.entrySet()){
-           if(it.getkey()==getCustomerNumber() && it.getValue()==getPinNumber){
-             getAccountType();
-           }
-         }*/
 
             int cn=getCustomerNumber();
             int pn=getPinNumber();
